@@ -1,0 +1,162 @@
+
+body { 
+    background-color: #CCF; 
+    font-family: arial, verdana, helvetica;
+    font-size: 12px;
+}
+
+table {
+    width: 100%;
+}
+
+.even {
+    background-color: lightgrey;
+}
+
+.odd {
+    background-color: white;
+}
+
+table td {
+    font-size: 12px;
+}
+
+table th {
+    background-color: green;
+    color: white;
+    font-size: 13px;
+    font-family: arial, helvetica, verdana;
+    font-weight: bold;
+    padding: 3px;
+}
+
+a, a:visited, a:active {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.sortable { 
+    background-color: white;
+    font-family: arial, helvetica, verdana;
+    font-size: 10px;
+}
+
+.sortable th {
+    background-color: #DBD3AF;
+    color: black;
+}
+
+.sortable tr:hover {
+    background-color: pink;
+}
+
+.sortable td {
+    padding: 5px;
+}
+
+.sortable th {
+    padding: 5px;
+}
+
+.sortable th a {
+    color: black;
+    text-decoration: none;
+}
+
+.b {
+    color: blue;
+}
+
+.gb {
+    color: green;
+    font-weight: bold;
+}
+
+.rb {
+    color: red;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: arial, helvetica, verdana;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+h3 {
+    font-family: arial, helvetica, verdana;
+    font-weight: normal;
+    font-size: 13px;
+}
+
+.ed {
+    font-size: 10px;
+    text-align: center;
+    border: 1px solid #AAA;
+    background-color: #EEE;
+}
+
+.fm {
+    font-size: 10px;
+}
+
+.upd {
+    width: 100%;
+    text-align: center;
+    font-family: arial, helvetica, verdana;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0; padding: 5px;
+    background-color: gold;
+    border: 1px solid #CCC;
+}
+
+p { 
+    font-family: arial, helvetica, verdana;
+    font-size: 10px;
+}
+
+select {
+    font-family: arial, helvetica, verdana;
+    font-size: 10px;
+}
+
+.edit_status_table {
+    font-family: arial, helvetica, verdana;
+    font-size: 12px;
+}
+
+.edit_status_table th {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.edit_status_table td {
+    padding: 5px;
+}
+
+.edit_status_date {
+    width: 145px;    
+    text-align: center;
+}
+
+.edit_status_message {
+    width: 100%;
+    font-size: 20px;
+    background-color: yellow;
+    color: black;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+img {
+    vertical-align: middle;
+}

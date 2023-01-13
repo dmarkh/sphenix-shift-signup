@@ -1,0 +1,226 @@
+html {
+	font-family: roboto, verdana, arial, helvetica;
+	font-size: 14px;
+}
+
+body {
+	font-family: roboto, verdana, arial, helvetica;
+	font-size: 14px;
+}
+
+input, button, select, select option {
+	font-family: roboto, verdana, arial, helvetica;
+	font-size: 16px;	
+}
+
+#st_html_ctrl {
+    background-color: #CCF;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+#st_body_ctrl {
+    margin: 0;
+    padding: 0;
+    background-color: #CCF;
+    color: black;
+}
+
+#st_shifts_html {
+    background-color: #CCF;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+#st_shifts_body {
+    background-color: #CCF;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    color: black;
+}
+
+#st_hdr_tbl {
+    color: #000;
+    height: 105px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-width: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-bottom: 1px solid #983F03;
+}
+
+#st_shifts_tbl {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-width: 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#st_shifts_tbl td {
+    border-right: 1px solid silver;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.st_trn {
+    background-color: lightcyan;
+}
+
+#st_shifts_tbl tr {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#st_shifts_tbl td {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.st_shifts_tbl_hdr {
+    text-align: center;
+    font-weight: bold;
+    background-color: #AAF;
+}
+
+.st_shifts_tbl_hdr_current {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: red;
+}
+
+.st_shifts_tbl_row {
+    text-align: center;
+}
+
+.st_shifts_dt {
+    color: green;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.st_shifts_crd {
+    color: brown;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.st_shifts_tm {
+    color: brown;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#st_hdr_star {
+    background-color: #9999CC;
+    color: #000;
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 0;
+    text-align: center;
+}
+
+#st_hdr_sign {
+    background-color: #9999CC;
+    color: #000;
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-right: 5px;
+    border-right: 1px solid #983F03;
+}
+
+#st_hdr_run {
+    color: #000;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+/*
+input {
+    padding: 0;
+    margin: 0;
+}
+*/
+
+.st_input_fixed {
+    width: 120px;
+}
+
+.even {
+    background-color: #DDF;
+}
+
+.odd {
+    background-color: #EEF;
+}
+
+#st_img_tbl {
+    height: 100%;
+    border-left: 1px dashed silver;
+    padding-left: 10px;
+}
+
+#st_img_tbl td {
+    font-size: 10px;
+}
+
+hr {
+    border: 0;
+}
+
+.st_hr {
+    background-color: #CCF;
+}
+
+.start_hidden { display:none; }
+
+select option {
+    height: 24px;
+    padding-top: 4px;
+}
+
+.mod_select option {
+    padding-left: 26px;
+    background-repeat:no-repeat;
+}
+
+.st_disabled {
+    background-color: darkgray;
+    border-right: 0px;
+    border-bottom: 1px solid silver;
+}
+
+.snowflake {
+    position: absolute;
+}
+
+#cat_field {
+    font-size: 16px;
+}
+
+#cat_field a,a:link,a:active,a:visited {
+    text-decoration: underscore;
+    color: black;
+}
+
+.expert_disabled {
+    background-color: brown;
+    color: silver;
+}
+
